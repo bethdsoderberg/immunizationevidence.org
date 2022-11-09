@@ -1,0 +1,28 @@
+# Local files
+.DS_Store
+.thumbsdb
+.svn
+init.sh
+
+# Theme and Plugin handling
+#
+# Ignore the parent, but explicitly exclude (from ignore)
+# any themes or plugins we wish to source control.
+#
+# example exclusion:
+#
+# !plugins/jetpack
+# !mu-plugins/hello.php
+# !themes/twentyseventeen
+#
+plugins/*
+
+.sass-cache/
+.sass-cache/*
+
+themes/*
+!themes/voice2022
+
+# Other wp-content exclusions
+upgrade/*
+uploads/*
