@@ -3,6 +3,9 @@
 .thumbsdb
 .svn
 init.sh
+index.php
+debug.log
+advanced-cache.php
 
 # Theme and Plugin handling
 #
@@ -16,6 +19,7 @@ init.sh
 # !themes/twentyseventeen
 #
 plugins/*
+mu-plugins/*
 
 .sass-cache/
 .sass-cache/*
